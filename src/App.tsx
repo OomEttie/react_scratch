@@ -3,6 +3,7 @@ import './App.css'
 
 import { Welcome } from "./components/welcome";
 import { Clock } from "./components/clock";
+import {NameForm} from "./components/form";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       React⚛️ + Vite⚡ + Replit🌀
       <Welcome name="propName" />
       <Clock />
+      <NameForm />
     </main>
   )
 }
